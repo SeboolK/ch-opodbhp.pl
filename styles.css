@@ -80,8 +80,7 @@ header p:hover
 
 
 /* Sekcje */
-.framed-section 
-{
+.framed-section {
     border: 3.5px solid #ccc;
     padding: 20px;
     margin: 45px auto;
@@ -90,6 +89,23 @@ header p:hover
     max-width: 1000px; 
     box-shadow: 0 4px 8px rgba(28, 26, 129, 0.541);
 }
+/* Sekcja Naszym klientom oferujemy */
+.client-offer {
+    border: 1px solid #363232;
+    background-color: #f7faff;
+    padding: 40px;
+    border-radius: 40px;
+    margin: 40px auto;
+    max-width: 1100px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.client-offer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(28, 26, 129, 0.541);
+}
+
 
 /* Stylizacja sekcji usług */
 .services-wrapper {
@@ -103,10 +119,23 @@ header p:hover
     transition: transform 0.3s ease-in-out;
 }
 
-.services-wrapper:hover 
-{
+.services-wrapper:hover {
     transform: scale(1.02);
 }
+
+/* Stylizacja nagłówków */
+h2, h3 {
+    text-align: center;
+}
+
+/* Separator między usługami */
+.separator {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+
 
 /* Biografia - układ i styl */
 .biography-content 
