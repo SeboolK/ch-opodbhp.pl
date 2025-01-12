@@ -1,2 +1,3 @@
 # chłopodbhp.pl
-strona firmy
+Strona firmy
+Kompleksowa obsługa prawna firm w zakresie BHP i Prawa Pracy.
